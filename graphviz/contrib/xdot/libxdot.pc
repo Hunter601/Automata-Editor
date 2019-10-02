@@ -1,0 +1,11 @@
+prefix=/c/graphviz/local.2.18
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib/graphviz
+includedir=${prefix}/include/graphviz
+
+Name: libxdot
+Description: parser for graphviz' xdot format
+Version: 2.18
+Libs: -L${libdir} -lxdot
+Cflags: -I${includedir}
+
